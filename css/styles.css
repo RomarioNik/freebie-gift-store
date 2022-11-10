@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "Gilroy Regular";
+  src: url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy Semibold";
+  src: url("../fonts/Gilroy-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+:root {
+  --text-color: #000000;
+  --title-color: #000000;
+  --accent-color: #f7941e;
+  --button-color: #f7941e;
+}
+
+body {
+  font-family: "Gilroy Regular", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+._container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button {
+  padding: 14px 11px;
+
+  color: var(--button-color);
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 1px solid var(--button-color);
+  border-radius: 5px;
+}
+
+.title {
+  font-family: "Gilroy Semibold", sans-serif;
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--title-color);
+}
+
+/* --------- HEADER ------------ */
+
+.header {
+}
+
+._container {
+}
+
+.header__wrap {
+  max-width: 1356px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-link {
+  font-family: "Homemade Apple", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(39 / 18);
+  color: #231f20;
+}
+
+.header__logo-link:hover,
+.header__logo-link:focus {
+  color: var(--accent-color);
+}
+
+.header__menu {
+}
+
+.menu {
+}
+
+.menu__list {
+  display: flex;
+  gap: 30px;
+}
+
+.menu__item {
+}
+
+.menu__menu-link {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  color: var(--text-color);
+  text-transform: capitalize;
+}
+
+.menu__menu-link:hover,
+.menu__menu-link:focus {
+  color: var(--accent-color);
+}
+
+.header__button {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+}
+
+.header__button:hover,
+.header__button:focus {
+  color: #ffffff;
+  background-color: var(--button-color);
+}
+
+/* ----------- MAIN ----------- */
+
+.page {
+}
+
+/* ----------- section GIFT ----------- */
+
+.page__gift {
+}
+
+.gift {
+}
+
+._container {
+}
+
+.gift__wrap,
+.about__wrap {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gift__description,
+.about__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 50%;
+  padding-left: 162px;
+
+  background-color: #f1f1f2;
+}
+
+.gift__title {
+  max-width: 433px;
+  margin-bottom: 36px;
+
+  font-family: "Gilroy Bold", sans-serif;
+  font-size: 56px;
+  line-height: calc(69 / 56);
+}
+
+.gift__text,
+.about__text {
+  max-width: 422px;
+  margin-bottom: 52px;
+}
+
+.gift__button {
+  padding: 23px 25px;
+
+  color: #ffffff;
+  background-color: var(--button-color);
+}
+
+.gift__button:hover,
+.gift__button:focus {
+  color: var(--button-color);
+  background-color: transparent;
+}
+
+.gift__thumb,
+.about__thumb {
+  flex: 1 1 50%;
+}
+
+.gift__img,
+.about__img {
+  object-position: center;
+  object-fit: cover;
+}
+
+/* ----------- section ABOUT ----------- */
+
+.page__about {
+}
+
+.about {
+}
+
+.about__wrap {
+}
+
+.about__description {
+  padding-left: 112px;
+}
+
+.about__title {
+  margin-bottom: 23px;
+}
+
+.about__text {
+  max-width: 441px;
+  margin-bottom: 32px;
+}
+
+.about__button {
+  padding: 23px 25px;
+
+  color: var(--button-color);
+  background-color: transparent;
+}
+
+.about__button:hover,
+.about__button:focus {
+  color: #ffffff;
+  background-color: var(--button-color);
+}
+
+.about__thumb {
+}
+
+.about__img {
+}
