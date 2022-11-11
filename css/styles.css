@@ -561,6 +561,85 @@ address {
 }
 
 .blogs__text-small {
+  font-size: 14px;
 }
 
 /* ----------- FOOTER ----------- */
+
+.footer {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  padding-bottom: 35px;
+
+  background-color: #fafafa;
+}
+
+.footer__wrap {
+  max-width: 1002px;
+}
+
+.footer__menu {
+}
+
+.menu {
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+
+  border-bottom: 1px solid #000000;
+}
+
+.menu__item {
+}
+
+.menu__item {
+}
+
+.menu__item:nth-of-type(3) {
+  order: 4;
+}
+.menu__item:nth-of-type(4) {
+  order: 5;
+}
+.menu__item:nth-of-type(5) {
+  order: 3;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.menu__menu-link {
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 50px;
+  padding-bottom: 72px;
+}
+
+.footer__social-item {
+}
+
+.footer__social-link {
+  color: #000000;
+}
+
+.footer__social-icon:hover,
+.footer__social-icon:focus {
+  color: var(--accent-color);
+}
+
+.footer__social-icon {
+  fill: currentColor;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  text-align: center;
+}
