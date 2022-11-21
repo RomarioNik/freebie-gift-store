@@ -261,14 +261,6 @@ address {
   text-align: center;
 }
 
-.products__text::before {
-  content: "\201D";
-}
-
-.products__text::after {
-  content: "\201D";
-}
-
 .products__list {
   display: flex;
   gap: 30px;
@@ -323,7 +315,7 @@ address {
 /* ----------- section READY ----------- */
 
 .ready {
-  max-width: 1140px;
+  /* max-width: 1140px; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
@@ -398,14 +390,6 @@ address {
   font-size: 18px;
   line-height: 1.36;
   text-align: center;
-}
-
-.blogs__text::before {
-  content: "\201D";
-}
-
-.blogs__text::after {
-  content: "\201D";
 }
 
 .blogs__articles {
@@ -491,7 +475,7 @@ address {
 /* ----------- FOOTER ----------- */
 
 .footer {
-  max-width: 1140px;
+  /* max-width: 1140px; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 75px;
