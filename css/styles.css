@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.4;
@@ -90,7 +90,7 @@ address {
 }
 
 .header__logo-link {
-  font-family: "Homemade Apple", sans-serif;
+  font-family: 'Homemade Apple', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: calc(39 / 18);
@@ -130,8 +130,7 @@ address {
   font-size: 18px;
   line-height: calc(21 / 18);
 
-  transition: color var(--base-transition),
-    background-color var(--base-transition);
+  transition: color var(--base-transition), background-color var(--base-transition);
 }
 
 .header__button:hover,
@@ -187,8 +186,7 @@ address {
   color: #ffffff;
   background-color: var(--button-color);
 
-  transition: color var(--base-transition),
-    background-color var(--base-transition);
+  transition: color var(--base-transition), background-color var(--base-transition);
 }
 
 .gift__button:hover,
@@ -229,8 +227,7 @@ address {
   color: var(--button-color);
   background-color: transparent;
 
-  transition: color var(--base-transition),
-    background-color var(--base-transition);
+  transition: color var(--base-transition), background-color var(--base-transition);
 }
 
 .about__button:hover,
@@ -271,22 +268,12 @@ address {
 }
 
 .products__link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(19 / 14);
-  color: var(--text-color);
-
-  transition: color var(--base-transition);
-}
-
-.products__link::after {
-  content: "\276F";
-  margin-left: 7px;
+  transition: box-shadow var(--base-transition);
 }
 
 .products__link:hover,
 .products__link:focus {
-  color: var(--accent-color);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
 .products__description {
@@ -295,13 +282,12 @@ address {
 
   background-color: #fafafa;
 
-  transition: box-shadow var(--base-transition),
-    background-color var(--base-transition);
+  transition: background-color var(--base-transition);
 }
 
-.products__description:hover {
+.products__link:hover > .products__description,
+.products__link:focus > .products__description {
   background-color: #ffffff;
-  box-shadow: 3px 3px 3px #f1f1f2;
 }
 
 .products__title-min {
@@ -310,6 +296,13 @@ address {
   font-size: inherit;
   font-weight: 400;
   line-height: calc(24 / 20);
+}
+
+.products__text-more {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  color: var(--text-color);
 }
 
 /* ----------- section READY ----------- */
@@ -349,8 +342,7 @@ address {
   border-color: #000000;
   padding: 18px 25px;
 
-  transition: color var(--base-transition),
-    background-color var(--base-transition);
+  transition: color var(--base-transition), background-color var(--base-transition);
 }
 
 .ready__button:hover,
